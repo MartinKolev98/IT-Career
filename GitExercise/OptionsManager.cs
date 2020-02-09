@@ -7,6 +7,8 @@ namespace GitExercise
         public static string[] OptionsList = {
             "a - Add",
             "s - Subtract",
+            "dr - DivideRemainder",
+            "exit - Exit",
             "m - Multiply",
             "pow - Power",
             "log - Logarithm",
@@ -53,6 +55,10 @@ namespace GitExercise
                 result*= i;
             }
             return result;
+        }
+        public static void DivideRemainder(double a, double b)
+        {
+            Console.WriteLine($"{a} % {b} = {a % b}");
         }
     }
 }
