@@ -44,7 +44,7 @@ namespace GitExercise
                     case "exit":
                         Console.Clear();
                         Console.WriteLine("Goodbye");
-                        Console.ReadKey(true);
+                        Console.ReadKey(intercept: true);
                         return;
                 }
                 Console.WriteLine("Press any key to close the app...");
